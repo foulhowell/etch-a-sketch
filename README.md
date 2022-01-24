@@ -1,2 +1,2 @@
 # etch-a-sketch
-a browser etch-a-sketch for The Odin Project.
+A browser etch-a-sketch for The Odin Project. Meant to showcase ability to manipulate DOM with JS.
