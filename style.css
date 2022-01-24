@@ -1,0 +1,25 @@
+.box {
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.black-box {
+    background-color: black;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
