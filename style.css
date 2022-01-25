@@ -1,10 +1,10 @@
 .box {
-    height: 35px;
-    width: 35px;
     background-color: white;
-    border-width: 2px;
+    border-width: 1px;
     border-style: solid;
     border-color: black;
+    height: 100%;
+    width: 100%;
 }
 
 .black-box {
@@ -14,12 +14,26 @@
 .row {
     display: flex;
     flex-direction: row;
+    width: 800px;
+    height: 800px;
     margin: 0;
+}
+
+.buttons {
+    padding-bottom: 1vw;
 }
 
 #container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 800px;
+    height: 800px;
+    margin: 0;
+}
+
+body {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
