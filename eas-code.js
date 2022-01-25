@@ -9,9 +9,8 @@ function makeGrid(numBoxes) {
         for (let j = 0; j  < numBoxes; j++) {
             const box = document.createElement('div');
             box.classList.add('box');
-            // let boxSize = 100/numBoxes;
-            // box.style.width(`20px`);
-            // box.style.height(`20px`);
+            let boxSize = 500/numBoxes;
+            box.setAttribute('style', `flex: 0 0 auto; width: ${boxSize}px; height: ${boxSize}px;`);
             row.appendChild(box);
         }
         container.appendChild(row);
